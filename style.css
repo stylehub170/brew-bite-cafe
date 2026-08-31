@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f1e7;
+    margin: 0;
+    padding: 50px;
+}
+
+h1 {
+    color: #6b3e26;
+    font-size: 40px;
+}
+
+p {
+    color: #555;
+    font-size: 18px;
+}
+nav {
+    background-color: #6b3e26;
+    padding: 20px;
+}
+
+nav h2 {
+    color: white;
+    margin: 0 0 15px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 17px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+.hero {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 42px;
+    color: #6b3e26;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    background-color: #6b3e26;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    font-size: 17px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #4d2b1c;
+}
+.menu {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.menu h2 {
+    color: #6b3e26;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.menu-card {
+    background-color: white;
+    width: 220px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.menu-card h3 {
+    color: #6b3e26;
+}
+
+.menu-card p {
+    color: #555;
+    font-size: 15px;
+}
+
+.menu-card strong {
+    color: #6b3e26;
+    font-size: 18px;
+}
